@@ -1,0 +1,11 @@
+name: 'greetings'
+
+on:
+  pull_request:
+
+
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
